@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pham Duc Thang</title>
+</head>
+<body>
+
+</body>
+<script>
+    let numbers = [0, 5, 10, 70, 20, 35, 40, 55, 1, 2]
+    let count = 0
+
+    function evenNumber() {
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 === 0) {
+                count++
+            }
+        }
+    }
+
+    evenNumber()
+    document.write('Mảng trên có ' + count + ' số chẵn')
+</script>
+</html>
